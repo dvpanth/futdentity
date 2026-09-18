@@ -1,0 +1,45 @@
+Player: Player name
+Nation: Player's nationality
+Pos: Player's position
+Squad: Club/team
+Comp: Competition/league
+
+Nation_stats_shooting: Player's nationality
+Pos_stats_shooting: Player's position
+Comp_stats_shooting: Competition/league
+
+Nation_stats_passing: Player's nationality
+Pos_stats_passing: Player's position
+Comp_stats_passing: Competition/league
+
+Nation_stats_passing_types: Player's nationality
+Pos_stats_passing_types: Player's position
+Comp_stats_passing_types: Competition/league
+
+Nation_stats_gca: Player's nationality
+Pos_stats_gca: Player's position
+Comp_stats_gca: Competition/league
+
+Nation_stats_defense: Player's nationality
+Pos_stats_defense: Player's position
+Comp_stats_defense: Competition/league
+
+Nation_stats_possession: Player's nationality
+Pos_stats_possession: Player's position
+Comp_stats_possession: Competition/league
+
+Nation_stats_playing_time: Player's nationality
+Pos_stats_playing_time: Player's position
+Comp_stats_playing_time: Competition/league
+
+Nation_stats_misc: Player's nationality
+Pos_stats_misc: Player's position
+Comp_stats_misc: Competition/league
+
+Nation_stats_keeper: Player's nationality
+Pos_stats_keeper: Player's position
+Comp_stats_keeper: Competition/league
+
+Nation_stats_keeper_adv: Player's nationality
+Pos_stats_keeper_adv: Player's position
+Comp_stats_keeper_adv: Competition/league
