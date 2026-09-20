@@ -1,0 +1,140 @@
+General / Playing Time
+Age — Player's age.
+Born — Birth year.
+MP — Matches played.
+Starts — Matches started.
+Min — Minutes played.
+90s — Equivalent full 90-minute games played.
+
+Shooting / Scoring
+Gls — Goals scored.
+Ast — Assists.
+G+A — Goals + assists.
+PK — Penalty-kick goals.
+CrdY — Yellow cards.
+CrdR — Red cards.
+xG — Expected goals.
+xAG — Expected assisted goals.
+PrgC — Progressive carries.
+PrgP — Progressive passes.
+PrgR — Progressive receptions.
+Sh — Total shots.
+SoT — Shots on target.
+SoT% — Percentage of shots on target.
+SoT/90 — Shots on target per 90.
+G/SoT — Goals per shot on target.
+Dist — Average distance of shots.
+FK — Shots from free kicks.
+
+Passing
+Cmp — Completed passes.
+Att — Pass attempts.
+Cmp% — Pass completion percentage.
+TotDist — Total distance of completed passes.
+PrgDist — Progressive distance of completed passes.
+xA — Expected assists.
+KP — Passes leading directly to shots.
+1/3 — Passes into the final third.
+PPA — Passes into the penalty area.
+Live — Completed passes during open play.
+Dead — Completed passes from dead-ball situations.
+TB — Passes sent behind the defense.
+Sw — Switches of play.
+Crs — Crosses.
+TI — Throw-ins taken.
+CK — Corner kicks.
+In — Inswinging corners.
+Out — Outswinging corners.
+Str — Straight/near-direct corners.
+Off — Passes caught offside.
+Blocks — Opponent passes blocked.
+
+Chance Creation
+SCA — Shot-creating actions.
+SCA90 — Shot-creating actions per 90.
+PassLive — SCA from live-ball passes.
+PassDead — SCA from dead-ball passes.
+TO — SCA from take-ons.
+Fld — SCA from fouls drawn.
+Def — SCA from defensive actions.
+GCA — Goal-creating actions.
+GCA90 — Goal-creating actions per 90.
+
+Defense
+Tkl — Tackles attempted.
+TklW — Tackles won.
+Def 3rd — Tackles in defensive third.
+Mid 3rd — Tackles in middle third.
+Tkl% — Percentage of tackles won.
+Lost — Tackles lost.
+Pass — Passes blocked.
+Int — Interceptions.
+Clr — Clearances.
+Err — Errors leading to opponent shots/goals.
+
+Possession / Ball Carrying
+Touches — Total touches of the ball.
+Def Pen — Touches in defensive penalty area.
+Def 3rd — Touches in defensive third.
+Mid 3rd — Touches in middle third.
+Live — Live-ball touches.
+Succ — Successful take-ons.
+Succ% — Take-on success rate.
+Tkld — Times tackled during take-ons.
+Tkld% — Percentage of take-ons resulting in being tackled.
+Carries — Times carrying the ball.
+CPA — Carries into the penalty area.
+Mis — Miscontrols.
+Dis — Times dispossessed.
+Rec — Passes received.
+
+Substitutions / Playing Time Context
+Mn/Start — Minutes per start.
+Compl — Matches played in full.
+Subs — Times used as a substitute.
+Mn/Sub — Minutes per substitute appearance.
+unSub — Unused substitute appearances.
+PPM — Points per match.
+onG — Team goals while player is on the pitch.
+onGA — Opponent goals while player is on the pitch.
++/- — Team goal difference while player is on the pitch.
++/-90 — On-pitch goal difference per 90.
+
+Fouls / Ball Recovery / Aerials
+Fls — Fouls committed.
+OG — Own goals.
+Recov — Ball recoveries.
+Won — Aerial duels won.
+Won% — Aerial duels won percentage.
+
+Goalkeeping
+GA — Goals conceded.
+GA90 — Goals conceded per 90.
+SoTA — Shots on target faced.
+Saves — Saves made.
+Save% — Save percentage.
+CS — Clean sheets.
+CS% — Clean-sheet percentage.
+
+Team
+W — Wins.
+D — Draws.
+L — Losses.
+
+Goalkeeper Distribution / Advanced
+GA_stats_keeper_adv — Goals conceded.
+FK_stats_keeper_adv — Free kicks faced.
+CK_stats_keeper_adv — Corners faced.
+OG_stats_keeper_adv — Own goals.
+/90 — Statistic normalized per 90 minutes.
+Cmp_stats_keeper_adv — Completed goalkeeper passes.
+Cmp%_stats_keeper_adv — Goalkeeper pass completion rate.
+Thr — Defensive actions outside the penalty area.
+Launch% — Percentage of goalkeeper passes launched long.
+AvgLen — Average goalkeeper pass length.
+Opp — Opponent attacks faced.
+Stp — Crosses stopped/caught.
+Stp% — Percentage of crosses stopped.
+#OPA — Defensive actions outside the penalty area.
+#OPA/90 — Defensive actions outside the penalty area per 90.
+AvgDist — Average distance of defensive actions outside the penalty area.
