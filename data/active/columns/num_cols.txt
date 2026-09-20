@@ -1,4 +1,5 @@
-Rk: Overall rank
+Rk: Overall rank 
+Player: Player name
 Age: Player age
 Born: Birth year
 MP: Matches played
@@ -23,7 +24,7 @@ PrgR: Progressive passes received
 G+A-PK: Non-penalty goals + assists
 xG+xAG: Expected goals + expected assisted goals
 
-Rk_stats_shooting: Shooting rank
+Rk_stats_shooting: Shooting rank 
 Age_stats_shooting: Age
 Born_stats_shooting: Birth year
 90s_stats_shooting: 90-minute equivalents
@@ -45,10 +46,10 @@ npxG/Sh: Expected goals per shot
 G-xG: Goals minus expected goals
 np:G-xG: Non-penalty goals minus non-penalty expected goals
 
-Rk_stats_passing: Passing rank
-Age_stats_passing: Age
-Born_stats_passing: Birth year
-90s_stats_passing: 90-minute equivalents
+Rk_stats_passing: Passing rank 
+Age_stats_passing: Age 
+Born_stats_passing: Birth year 
+90s_stats_passing: 90-minute equivalents 
 Cmp: Passes completed
 Att: Passes attempted
 Cmp%: Pass completion percentage
@@ -64,11 +65,11 @@ PPA: Passes into the penalty area
 CrsPA: Crosses into the penalty area
 PrgP_stats_passing: Progressive passes
 
-Rk_stats_passing_types: Passing-types rank
-Age_stats_passing_types: Age
-Born_stats_passing_types: Birth year
-90s_stats_passing_types: 90-minute equivalents
-Att_stats_passing_types: Passes attempted
+Rk_stats_passing_types: Passing-types rank 
+Age_stats_passing_types: Age 
+Born_stats_passing_types: Birth year 
+90s_stats_passing_types: 90-minute equivalents 
+Att_stats_passing_types: Passes attempted 
 Live: Live-ball passes
 Dead: Dead-ball passes
 FK_stats_passing_types: Free-kick passes
@@ -84,10 +85,10 @@ Cmp_stats_passing_types: Passes completed
 Off: Passes that were offside
 Blocks: Passes blocked by opponent
 
-Rk_stats_gca: Goal/shot creation rank
-Age_stats_gca: Age
-Born_stats_gca: Birth year
-90s_stats_gca: 90-minute equivalents
+Rk_stats_gca: Goal/shot creation rank 
+Age_stats_gca: Age 
+Born_stats_gca: Birth year 
+90s_stats_gca: 90-minute equivalents 
 SCA: Shot-creating actions
 SCA90: Shot-creating actions per 90
 PassLive: SCA from live passes
@@ -99,10 +100,10 @@ Def: SCA from defensive actions
 GCA: Goal-creating actions
 GCA90: Goal-creating actions per 90
 
-Rk_stats_defense: Defense rank
-Age_stats_defense: Age
-Born_stats_defense: Birth year
-90s_stats_defense: 90-minute equivalents
+Rk_stats_defense: Defense rank 
+Age_stats_defense: Age 
+Born_stats_defense: Birth year 
+90s_stats_defense: 90-minute equivalents 
 Tkl: Tackles
 TklW: Tackles won
 Def 3rd: Tackles in defensive third
@@ -119,10 +120,10 @@ Tkl+Int: Tackles + interceptions
 Clr: Clearances
 Err: Errors leading to a shot
 
-Rk_stats_possession: Possession rank
-Age_stats_possession: Age
-Born_stats_possession: Birth year
-90s_stats_possession: 90-minute equivalents
+Rk_stats_possession: Possession rank 
+Age_stats_possession: Age 
+Born_stats_possession: Birth year 
+90s_stats_possession: 90-minute equivalents 
 Touches: Touches
 Def Pen: Touches in defensive penalty area
 Def 3rd_stats_possession: Touches in defensive third
@@ -146,11 +147,11 @@ Dis: Dispossessed
 Rec: Ball receptions
 PrgR_stats_possession: Progressive passes received
 
-Rk_stats_playing_time: Playing-time rank
-Age_stats_playing_time: Age
-Born_stats_playing_time: Birth year
-MP_stats_playing_time: Matches played
-Min_stats_playing_time: Minutes played
+Rk_stats_playing_time: Playing-time rank 
+Age_stats_playing_time: Age 
+Born_stats_playing_time: Birth year 
+MP_stats_playing_time: Matches played 
+Min_stats_playing_time: Minutes played 
 Mn/MP: Minutes per match
 Min%: Percentage of team's minutes played
 90s_stats_playing_time: 90-minute equivalents
@@ -171,10 +172,10 @@ onxGA: Team expected goals against while player is on pitch
 xG+/-: Expected goal difference while player is on pitch
 xG+/-90: Expected goal difference per 90 while player is on pitch
 
-Rk_stats_misc: Miscellaneous rank
-Age_stats_misc: Age
-Born_stats_misc: Birth year
-90s_stats_misc: 90-minute equivalents
+Rk_stats_misc: Miscellaneous rank 
+Age_stats_misc: Age 
+Born_stats_misc: Birth year 
+90s_stats_misc: 90-minute equivalents 
 CrdY_stats_misc: Yellow cards
 CrdR_stats_misc: Red cards
 2CrdY: Second-yellow dismissals
@@ -192,13 +193,13 @@ Won: Aerial duels won
 Lost_stats_misc: Aerial duels lost
 Won%: Aerial duel win percentage
 
-Rk_stats_keeper: Goalkeeping rank
-Age_stats_keeper: Age
-Born_stats_keeper: Birth year
-MP_stats_keeper: Matches played
-Starts_stats_keeper: Starts
-Min_stats_keeper: Minutes played
-90s_stats_keeper: 90-minute equivalents
+Rk_stats_keeper: Goalkeeping rank 
+Age_stats_keeper: Age 
+Born_stats_keeper: Birth year 
+MP_stats_keeper: Matches played 
+Starts_stats_keeper: Starts 
+Min_stats_keeper: Minutes played 
+90s_stats_keeper: 90-minute equivalents 
 GA: Goals against
 GA90: Goals against per 90
 SoTA: Shots on target faced
@@ -214,11 +215,11 @@ PKA: Penalty kicks against
 PKsv: Penalty kicks saved
 PKm: Penalty kicks missed
 
-Rk_stats_keeper_adv: Advanced goalkeeping rank
-Age_stats_keeper_adv: Age
-Born_stats_keeper_adv: Birth year
-90s_stats_keeper_adv: 90-minute equivalents
-GA_stats_keeper_adv: Goals against
+Rk_stats_keeper_adv: Advanced goalkeeping rank 
+Age_stats_keeper_adv: Age 
+Born_stats_keeper_adv: Birth year 
+90s_stats_keeper_adv: 90-minute equivalents 
+GA_stats_keeper_adv: Goals against 
 PKA_stats_keeper_adv: Penalty kicks against
 FK_stats_keeper_adv: Free-kick goals against
 CK_stats_keeper_adv: Corner-kick goals against
