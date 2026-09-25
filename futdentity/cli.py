@@ -26,16 +26,3 @@ def get_target_idx(name=str, data=pd.DataFrame) -> int:
     if len(matches) > 1:
         return select_player(matches)
     return matches.index[0]
-
-TITLE = r"""
-███████╗██╗   ██╗████████╗██████╗ ███████╗███╗   ██╗████████╗██╗████████╗██╗   ██╗
-██╔════╝██║   ██║╚══██╔══╝██╔══██╗██╔════╝████╗  ██║╚══██╔══╝██║╚══██╔══╝╚██╗ ██╔╝
-█████╗  ██║   ██║   ██║   ██║  ██║█████╗  ██╔██╗ ██║   ██║   ██║   ██║    ╚████╔╝ 
-██╔══╝  ██║   ██║   ██║   ██║  ██║██╔══╝  ██║╚██╗██║   ██║   ██║   ██║     ╚██╔╝  
-██║     ╚██████╔╝   ██║   ██████╔╝███████╗██║ ╚████║   ██║   ██║   ██║      ██║   
-╚═╝      ╚═════╝    ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝   ╚═╝      ╚═╝   
-                                                                                  """
-DESC = "Futdentity finds statistically similar football players across Europe’s top leagues, one aspect of their game at a time."
-
-print(TITLE)
-print(DESC)
