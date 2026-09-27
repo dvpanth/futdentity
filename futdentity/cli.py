@@ -70,16 +70,25 @@ def main():
     numeric_data = get_quantitative(data)
     features = get_feature_groups()
     scaled = scale(features, numeric_data)
+    run = True
 
-    name = input("Enter player name: ")
-    target_idx = get_target_idx(name, data)
-    target_pos = data.iloc[target_idx]['Pos']
-    target_is_gk = 'GK' in str(target_pos).upper()
-    active_groups, candidate_mask = filter_pos(target_is_gk, scaled, data)
-    candidate_mask = (candidate_mask & data['Min'].ge(MIN_MINUTES))
-    results = perform_search(name, target_idx, data, active_groups, candidate_mask)
-    named = format_results(data, results)
-    print(named)
+    while run == True:
+        name = input("\nEnter player name: ")
+        target_idx = get_target_idx(name, data)
+        target_pos = data.iloc[target_idx]['Pos']
+        target_is_gk = 'GK' in str(target_pos).upper()
+        active_groups, candidate_mask = filter_pos(target_is_gk, scaled, data)
+        candidate_mask = (candidate_mask & data['Min'].ge(MIN_MINUTES))
+        results = perform_search(name, target_idx, data, active_groups, candidate_mask)
+        named = format_results(data, results)
+        print()
+        for cat, names in named.items():
+            print(f'For the category {cat}, the most similar players are: {', '.join(names)}')
+        run = input('\nNext player? (Y/n): ').upper()
+        if run == 'Y':
+            run = True
+        elif run == 'N':
+            run = False
 
 if __name__ == '__main__':
     main()
