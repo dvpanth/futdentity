@@ -10,10 +10,10 @@ DUPLICATE_COLS = [
     'Min', 'Starts', 'CrdY', 'CrdR', 'Lost'
     ]
 
-def read_data(filename: str) -> pd.DataFrame:
+def read_data() -> pd.DataFrame:
     return pd.read_csv(DATA_DIR / 'playerdata_2425.csv')
 
-def del_dupe_tokens(data):
+def del_dupe_tokens(data) -> pd.DataFrame:
     cleaned = data.copy()
     for token in DUPLICATE_COLS:
         cleaned = cleaned.loc[:, cleaned.columns.str.contains(f'^{token}$') | ~cleaned.columns.str.contains(token)]
